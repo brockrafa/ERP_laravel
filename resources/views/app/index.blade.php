@@ -1,5 +1,4 @@
 @extends('layouts.layout_default')
-@section('title','Bem vindo')
-@section('content')
-  <h1>Ola galera</h1>  
+@section('conteudo')
+  <h1>Ola galeraa</h1>  
 @endsection
