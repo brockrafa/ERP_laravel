@@ -6,28 +6,35 @@
     <div class="body-barra-navegacao">
         <ul>
             <li>
-                <a href="">
+                <a href="/">
+                    <img src="{{ asset('icones/planilha.svg') }}" alt="">
+                    <span>Dashboard</span>
+                    <img src="{{ asset('icones/arrow-right.svg') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="/chamados" onclick="render(event,'chamados')">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Chamados</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Clientes</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Clientes</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Clientes</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">

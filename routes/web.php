@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\AppController::class,'index'])->name('site.index');
+Route::get('/chamados', [\App\Http\Controllers\AppController::class,'chamados'])->name('site.chamados');

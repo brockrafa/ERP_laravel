@@ -9,4 +9,7 @@ class AppController extends Controller
     public function index(){
         return view('app.index');
     }
+    public function chamados(){
+        return view('app.chamados');
+    }
 }
