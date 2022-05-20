@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li>
-                <a href="/chamados" onclick="render(event,'chamados')">
+                <a href="/chamados" onclick="render('chamados',event)">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Chamados</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">

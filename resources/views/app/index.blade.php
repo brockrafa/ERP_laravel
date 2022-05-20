@@ -1,4 +1,6 @@
 @extends('layouts.layout_default')
 @section('conteudo')
-  <h1>Ola galeraa</h1>  
+  <div class="quadro-exibicao">
+    <h1>Olá galera</h1>
+  </div> 
 @endsection

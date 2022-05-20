@@ -3,10 +3,10 @@
         <img src="{{ asset('icones/icone-checklist.svg') }}">
         <span>Chamados</span>
     </h4>
-    <button onclick="alert('Botão clicado')">
+    <a href="/novo-chamado" onclick="render('novo-chamado',event)">
         <img src="{{ asset('icones/add.svg') }}" alt="">
         <span>Novo chamado</span>
-    </button>
+    </a>
 </section>
 
 <section id="filtro-chamados" class="body-secao">
@@ -16,23 +16,23 @@
     </div>
     <form action="" method="GET">
         <div class="form-grupo">
-            <label for="">Cliente</label>
-            <input type="text">
+            <label for="cliente">Cliente</label>
+            <input type="text" id="cliente">
         </div>
 
         <div class="form-grupo">
-            <label for="">Data inicio</label>
-            <input type="date">
+            <label for="data_inicio">Data inicio</label>
+            <input type="date" id="data_inicio">
         </div>
 
         <div class="form-grupo">
-            <label for="">Data fim</label>
-            <input type="date">
+            <label for="data_fim">Data fim</label>
+            <input type="date" id="data_fim">
         </div>
 
         <div class="form-grupo">
-            <label for="">Situação</label>
-            <select>
+            <label for="situacao">Situação</label>
+            <select id="situacao">
                 <option value="">Todos</option>
                 <option value="">Em aberto</option>
                 <option value="">Fechado</option>
@@ -40,13 +40,13 @@
         </div>
 
         <div class="form-grupo">
-            <label for="">Usuario responsável</label>
-            <input type="text">
+            <label for="usuario">Usuario responsável</label>
+            <input type="text" id="usuario">
         </div>
 
         <div class="form-grupo">
-            <label for="">Departamento</label>
-            <select>
+            <label for="departamento">Departamento</label>
+            <select id="departamento">
                 <option value="">Todos</option>
                 <option value="">Manutenção</option>
                 <option value="">Fechado</option>
@@ -54,8 +54,8 @@
         </div>
 
         <div class="form-grupo">
-            <label for="">Atendente</label>
-            <input type="text">
+            <label for="atendente">Atendente</label>
+            <input type="text" id="atendente">
         </div>
 
         <div class="grupo-botoes">
@@ -63,7 +63,7 @@
                 <img src="{{ asset('icones/lupa-white.svg') }}" alt="">
                 <span>Filtrar</span>
             </button>
-            <button>
+            <button type="button" onclick="limparFiltroChamados()">
                 <img src="{{ asset('icones/lixeira.svg') }}" alt="">
                 <span>Limpar</span>
             </button>

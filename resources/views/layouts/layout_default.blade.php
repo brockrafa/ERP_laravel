@@ -14,8 +14,8 @@
     <script src="{{ asset('js/js.js') }}"></script>
 </head>
 <body>
-    @component('componentes.barra-navegacao')@endcomponent
-    @component('componentes.menu-superior')@endcomponent
-    @component('componentes.quadro-exibicao')@endcomponent
+    @include('_partials.barra-navegacao')
+    @include('_partials.menu-superior')
+    @yield('conteudo')
 </body>
 </html>

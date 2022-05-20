@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     background-color: #F2F2F2;
 }
-select,button,input:focus{
+select,button,textarea,input:focus{
     outline: none;
 }
 a{
@@ -17,6 +17,9 @@ a{
 }
 ul{
     list-style: none;
+}
+input[type='date'],select{
+    cursor: pointer;
 }
 
 /* Estilo barra de navegação principal */

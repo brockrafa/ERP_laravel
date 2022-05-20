@@ -12,4 +12,7 @@ class AppController extends Controller
     public function chamados(){
         return view('app.chamados');
     }
+    public function novoChamado(){
+        return view('app.novo_chamado');
+    }
 }
