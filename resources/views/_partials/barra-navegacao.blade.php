@@ -6,14 +6,14 @@
     <div class="body-barra-navegacao">
         <ul>
             <li>
-                <a href="/">
+                <a href="{{ route('site.index') }}">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Dashboard</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">
                 </a>
             </li>
             <li>
-                <a href="/chamados" onclick="render('chamados',event)">
+                <a href="{{ route('site.chamados') }}" onclick="render('chamados',event)">
                     <img src="{{ asset('icones/planilha.svg') }}" alt="">
                     <span>Chamados</span>
                     <img src="{{ asset('icones/arrow-right.svg') }}" alt="">

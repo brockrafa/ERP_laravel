@@ -282,3 +282,22 @@
 #novo-chamado .grupo-botoes button:hover{
     background-color: #47008f;
 }
+.feature{
+    background-color: rgb(218, 218, 218);
+    color: rgb(96, 96, 96);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    cursor: pointer;
+    display: flex ;
+    justify-content: space-between;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.feature img{
+    width: 20px;
+}
+.feature:hover{
+    background-color: rgb(200, 200, 200);
+    color: rgb(255, 255, 255);
+}

@@ -15,4 +15,7 @@ class AppController extends Controller
     public function novoChamado(){
         return view('app.novo_chamado');
     }
+    public function features(){
+        return view('app.features');
+    }
 }

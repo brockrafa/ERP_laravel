@@ -3,7 +3,7 @@
         <img src="{{ asset('icones/icone-checklist.svg') }}">
         <span>Chamados</span>
     </h4>
-    <a href="/novo-chamado" onclick="render('novo-chamado',event)">
+    <a href="{{ route('site.novo_chamado')}}" onclick="render('novo-chamado',event)">
         <img src="{{ asset('icones/add.svg') }}" alt="">
         <span>Novo chamado</span>
     </a>
