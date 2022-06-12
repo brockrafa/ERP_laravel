@@ -17,3 +17,4 @@ Route::get('/', [\App\Http\Controllers\AppController::class,'index'])->name('sit
 Route::get('/chamados', [\App\Http\Controllers\AppController::class,'chamados'])->name('site.chamados');
 Route::get('/novo-chamado', [\App\Http\Controllers\AppController::class,'novoChamado'])->name('site.novo_chamado');
 Route::get('/features', [\App\Http\Controllers\AppController::class,'features'])->name('site.features');
+Route::get('/calendario', [\App\Http\Controllers\AppController::class,'calendario'])->name('site.calendario');

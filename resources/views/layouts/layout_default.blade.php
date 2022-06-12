@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="{{ asset('css/default-styles.css') }} ">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="{{ asset('js/js.js') }}"></script>
+
+
+    <link href='{{ asset('css/main.css') }}' rel='stylesheet' />
+    <script src='https://github.com/mozilla-comm/ical.js/releases/download/v1.4.0/ical.js'></script>
+    <script src='{{ asset('js/main.js') }}'></script>
 </head>
 <body>
     @include('_partials.barra-navegacao')

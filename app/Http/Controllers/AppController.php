@@ -18,4 +18,7 @@ class AppController extends Controller
     public function features(){
         return view('app.features');
     }
+    public function calendario(){
+        return view('app.agenda');
+    }
 }
